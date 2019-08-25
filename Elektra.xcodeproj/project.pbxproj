@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65399938231235A9000CDFF0 /* ElektraTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65399937231235A9000CDFF0 /* ElektraTabBarController.swift */; };
+		656032ED2312566900CBBED6 /* ClientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032EC2312566900CBBED6 /* ClientDetailsViewController.swift */; };
+		656032EF2312570000CBBED6 /* ProductsHorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032EE2312570000CBBED6 /* ProductsHorizontalCollectionView.swift */; };
+		656032F1231257F300CBBED6 /* LastSearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032F0231257F300CBBED6 /* LastSearchDataSource.swift */; };
+		656032F52312675200CBBED6 /* ClientHIstoryProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032F42312675200CBBED6 /* ClientHIstoryProductsCell.swift */; };
+		656032F72312696A00CBBED6 /* ClientinfoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032F62312696A00CBBED6 /* ClientinfoDetailCell.swift */; };
+		656032FA23126A8E00CBBED6 /* SandwichInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032F923126A8E00CBBED6 /* SandwichInfoView.swift */; };
+		656032FC231273B100CBBED6 /* ClientsOffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032FB231273B100CBBED6 /* ClientsOffersCell.swift */; };
+		656032FE231275DD00CBBED6 /* ProductsOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032FD231275DD00CBBED6 /* ProductsOfferView.swift */; };
+		65603300231276D600CBBED6 /* ProductPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656032FF231276D600CBBED6 /* ProductPriceCell.swift */; };
+		656033032312773700CBBED6 /* ProductPriceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656033022312773600CBBED6 /* ProductPriceCollectionView.swift */; };
+		65603306231277FA00CBBED6 /* ProductsOffersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65603305231277FA00CBBED6 /* ProductsOffersDataSource.swift */; };
+		65603309231282D100CBBED6 /* HorizontalOffersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65603308231282D100CBBED6 /* HorizontalOffersListCell.swift */; };
+		6560330F2312955600CBBED6 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 6560330E2312955500CBBED6 /* products.json */; };
+		65603312231296DF00CBBED6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65603311231296DF00CBBED6 /* Product.swift */; };
+		656033142312982900CBBED6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656033132312982900CBBED6 /* DataManager.swift */; };
+		656033162312A72200CBBED6 /* pantallas.json in Resources */ = {isa = PBXBuildFile; fileRef = 656033152312A72200CBBED6 /* pantallas.json */; };
+		65A9F7AF2311B305001193A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7AE2311B305001193A3 /* AppDelegate.swift */; };
+		65A9F7B12311B305001193A3 /* AllProducstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7B02311B305001193A3 /* AllProducstViewController.swift */; };
+		65A9F7B62311B307001193A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A9F7B52311B307001193A3 /* Assets.xcassets */; };
+		65A9F7B92311B307001193A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A9F7B72311B307001193A3 /* LaunchScreen.storyboard */; };
+		65A9F7C22311C780001193A3 /* ProducstCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7C12311C780001193A3 /* ProducstCollectionViewManager.swift */; };
+		65A9F7C42311C7B3001193A3 /* ProductsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7C32311C7B3001193A3 /* ProductsCollectionView.swift */; };
+		65A9F7C72311D90E001193A3 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7C62311D90E001193A3 /* ProductDetailViewController.swift */; };
+		65A9F7C92311E0A9001193A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7C82311E0A9001193A3 /* Constants.swift */; };
+		65A9F7CD23120006001193A3 /* ProductDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7CC23120006001193A3 /* ProductDetailCell.swift */; };
+		65A9F7CF2312001E001193A3 /* ClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7CE2312001E001193A3 /* ClientsViewController.swift */; };
+		65A9F7D2231200B0001193A3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7D1231200B0001193A3 /* BaseViewController.swift */; };
+		65A9F7D4231200F5001193A3 /* ClientsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7D3231200F5001193A3 /* ClientsDataSource.swift */; };
+		65A9F7D623120104001193A3 /* ClientsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7D523120104001193A3 /* ClientsCollectionView.swift */; };
+		65A9F7D9231201E5001193A3 /* ClientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9F7D8231201E5001193A3 /* ClientCell.swift */; };
+		9772552983EB9E7D097A6496 /* Pods_Elektra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0378553AF83BBC8F30BDA466 /* Pods_Elektra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0378553AF83BBC8F30BDA466 /* Pods_Elektra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elektra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12744828322360847A65C7F8 /* Pods-Elektra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elektra.release.xcconfig"; path = "Target Support Files/Pods-Elektra/Pods-Elektra.release.xcconfig"; sourceTree = "<group>"; };
+		65399937231235A9000CDFF0 /* ElektraTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElektraTabBarController.swift; sourceTree = "<group>"; };
+		656032EC2312566900CBBED6 /* ClientDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailsViewController.swift; sourceTree = "<group>"; };
+		656032EE2312570000CBBED6 /* ProductsHorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsHorizontalCollectionView.swift; sourceTree = "<group>"; };
+		656032F0231257F300CBBED6 /* LastSearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSearchDataSource.swift; sourceTree = "<group>"; };
+		656032F42312675200CBBED6 /* ClientHIstoryProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHIstoryProductsCell.swift; sourceTree = "<group>"; };
+		656032F62312696A00CBBED6 /* ClientinfoDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientinfoDetailCell.swift; sourceTree = "<group>"; };
+		656032F923126A8E00CBBED6 /* SandwichInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichInfoView.swift; sourceTree = "<group>"; };
+		656032FB231273B100CBBED6 /* ClientsOffersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsOffersCell.swift; sourceTree = "<group>"; };
+		656032FD231275DD00CBBED6 /* ProductsOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsOfferView.swift; sourceTree = "<group>"; };
+		656032FF231276D600CBBED6 /* ProductPriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPriceCell.swift; sourceTree = "<group>"; };
+		656033022312773600CBBED6 /* ProductPriceCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPriceCollectionView.swift; sourceTree = "<group>"; };
+		65603305231277FA00CBBED6 /* ProductsOffersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsOffersDataSource.swift; sourceTree = "<group>"; };
+		65603308231282D100CBBED6 /* HorizontalOffersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalOffersListCell.swift; sourceTree = "<group>"; };
+		6560330E2312955500CBBED6 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		65603311231296DF00CBBED6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		656033132312982900CBBED6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		656033152312A72200CBBED6 /* pantallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pantallas.json; sourceTree = "<group>"; };
+		65A9F7AB2311B305001193A3 /* Elektra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elektra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A9F7AE2311B305001193A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A9F7B02311B305001193A3 /* AllProducstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProducstViewController.swift; sourceTree = "<group>"; };
+		65A9F7B52311B307001193A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A9F7B82311B307001193A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A9F7BA2311B307001193A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A9F7C12311C780001193A3 /* ProducstCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducstCollectionViewManager.swift; sourceTree = "<group>"; };
+		65A9F7C32311C7B3001193A3 /* ProductsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionView.swift; sourceTree = "<group>"; };
+		65A9F7C62311D90E001193A3 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		65A9F7C82311E0A9001193A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65A9F7CC23120006001193A3 /* ProductDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailCell.swift; sourceTree = "<group>"; };
+		65A9F7CE2312001E001193A3 /* ClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
+		65A9F7D1231200B0001193A3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		65A9F7D3231200F5001193A3 /* ClientsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsDataSource.swift; sourceTree = "<group>"; };
+		65A9F7D523120104001193A3 /* ClientsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsCollectionView.swift; sourceTree = "<group>"; };
+		65A9F7D8231201E5001193A3 /* ClientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCell.swift; sourceTree = "<group>"; };
+		6CF1B2D66C3A1FAC6068CB2E /* Pods-Elektra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elektra.debug.xcconfig"; path = "Target Support Files/Pods-Elektra/Pods-Elektra.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A9F7A82311B305001193A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9772552983EB9E7D097A6496 /* Pods_Elektra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5576094E48C761A015CBE6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0378553AF83BBC8F30BDA466 /* Pods_Elektra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		656032EB2312565200CBBED6 /* ClientDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				656032F82312699300CBBED6 /* Cells */,
+				656032EC2312566900CBBED6 /* ClientDetailsViewController.swift */,
+				656032EE2312570000CBBED6 /* ProductsHorizontalCollectionView.swift */,
+				656032F0231257F300CBBED6 /* LastSearchDataSource.swift */,
+			);
+			path = ClientDetailViewController;
+			sourceTree = "<group>";
+		};
+		656032F82312699300CBBED6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65603307231282A900CBBED6 /* HorizontalOffersList */,
+				65603304231277D700CBBED6 /* ProductsOffersCell */,
+				656033012312770C00CBBED6 /* ProductPriceCell */,
+				656032F42312675200CBBED6 /* ClientHIstoryProductsCell.swift */,
+				656032F62312696A00CBBED6 /* ClientinfoDetailCell.swift */,
+				656032F923126A8E00CBBED6 /* SandwichInfoView.swift */,
+				656032FB231273B100CBBED6 /* ClientsOffersCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		656033012312770C00CBBED6 /* ProductPriceCell */ = {
+			isa = PBXGroup;
+			children = (
+				656032FF231276D600CBBED6 /* ProductPriceCell.swift */,
+				656033022312773600CBBED6 /* ProductPriceCollectionView.swift */,
+			);
+			path = ProductPriceCell;
+			sourceTree = "<group>";
+		};
+		65603304231277D700CBBED6 /* ProductsOffersCell */ = {
+			isa = PBXGroup;
+			children = (
+				656032FD231275DD00CBBED6 /* ProductsOfferView.swift */,
+				65603305231277FA00CBBED6 /* ProductsOffersDataSource.swift */,
+			);
+			path = ProductsOffersCell;
+			sourceTree = "<group>";
+		};
+		65603307231282A900CBBED6 /* HorizontalOffersList */ = {
+			isa = PBXGroup;
+			children = (
+				65603308231282D100CBBED6 /* HorizontalOffersListCell.swift */,
+			);
+			path = HorizontalOffersList;
+			sourceTree = "<group>";
+		};
+		65603310231296D100CBBED6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65603311231296DF00CBBED6 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65A9F7A22311B305001193A3 = {
+			isa = PBXGroup;
+			children = (
+				65A9F7AD2311B305001193A3 /* Elektra */,
+				65A9F7AC2311B305001193A3 /* Products */,
+				931692BAFC4CF0DF2B5E215A /* Pods */,
+				5576094E48C761A015CBE6AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65A9F7AC2311B305001193A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A9F7AB2311B305001193A3 /* Elektra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A9F7AD2311B305001193A3 /* Elektra */ = {
+			isa = PBXGroup;
+			children = (
+				656033152312A72200CBBED6 /* pantallas.json */,
+				65603310231296D100CBBED6 /* Models */,
+				6560330E2312955500CBBED6 /* products.json */,
+				656032EB2312565200CBBED6 /* ClientDetailViewController */,
+				65A9F7D023120023001193A3 /* ClientsViewController */,
+				65A9F7C52311D8EB001193A3 /* ProductDetailViewController */,
+				65A9F7C02311C746001193A3 /* ProductsViewController */,
+				65A9F7AE2311B305001193A3 /* AppDelegate.swift */,
+				65A9F7B02311B305001193A3 /* AllProducstViewController.swift */,
+				65A9F7B52311B307001193A3 /* Assets.xcassets */,
+				65A9F7B72311B307001193A3 /* LaunchScreen.storyboard */,
+				65A9F7BA2311B307001193A3 /* Info.plist */,
+				65A9F7C82311E0A9001193A3 /* Constants.swift */,
+				65A9F7D1231200B0001193A3 /* BaseViewController.swift */,
+				65399937231235A9000CDFF0 /* ElektraTabBarController.swift */,
+				656033132312982900CBBED6 /* DataManager.swift */,
+			);
+			path = Elektra;
+			sourceTree = "<group>";
+		};
+		65A9F7C02311C746001193A3 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65A9F7C12311C780001193A3 /* ProducstCollectionViewManager.swift */,
+				65A9F7C32311C7B3001193A3 /* ProductsCollectionView.swift */,
+				65A9F7CC23120006001193A3 /* ProductDetailCell.swift */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		65A9F7C52311D8EB001193A3 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65A9F7C62311D90E001193A3 /* ProductDetailViewController.swift */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		65A9F7D023120023001193A3 /* ClientsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65A9F7D7231201D7001193A3 /* ClientCell */,
+				65A9F7CE2312001E001193A3 /* ClientsViewController.swift */,
+				65A9F7D3231200F5001193A3 /* ClientsDataSource.swift */,
+				65A9F7D523120104001193A3 /* ClientsCollectionView.swift */,
+			);
+			path = ClientsViewController;
+			sourceTree = "<group>";
+		};
+		65A9F7D7231201D7001193A3 /* ClientCell */ = {
+			isa = PBXGroup;
+			children = (
+				65A9F7D8231201E5001193A3 /* ClientCell.swift */,
+			);
+			path = ClientCell;
+			sourceTree = "<group>";
+		};
+		931692BAFC4CF0DF2B5E215A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CF1B2D66C3A1FAC6068CB2E /* Pods-Elektra.debug.xcconfig */,
+				12744828322360847A65C7F8 /* Pods-Elektra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A9F7AA2311B305001193A3 /* Elektra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A9F7BD2311B307001193A3 /* Build configuration list for PBXNativeTarget "Elektra" */;
+			buildPhases = (
+				F05DF21C0FB3FE3529F0C5C3 /* [CP] Check Pods Manifest.lock */,
+				65A9F7A72311B305001193A3 /* Sources */,
+				65A9F7A82311B305001193A3 /* Frameworks */,
+				65A9F7A92311B305001193A3 /* Resources */,
+				8FE2532AAFEAC5C2551DABFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elektra;
+			productName = Elektra;
+			productReference = 65A9F7AB2311B305001193A3 /* Elektra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A9F7A32311B305001193A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Luis;
+				TargetAttributes = {
+					65A9F7AA2311B305001193A3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 65A9F7A62311B305001193A3 /* Build configuration list for PBXProject "Elektra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A9F7A22311B305001193A3;
+			productRefGroup = 65A9F7AC2311B305001193A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A9F7AA2311B305001193A3 /* Elektra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A9F7A92311B305001193A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656033162312A72200CBBED6 /* pantallas.json in Resources */,
+				65A9F7B92311B307001193A3 /* LaunchScreen.storyboard in Resources */,
+				6560330F2312955600CBBED6 /* products.json in Resources */,
+				65A9F7B62311B307001193A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FE2532AAFEAC5C2551DABFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elektra/Pods-Elektra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elektra/Pods-Elektra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elektra/Pods-Elektra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05DF21C0FB3FE3529F0C5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elektra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A9F7A72311B305001193A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A9F7B12311B305001193A3 /* AllProducstViewController.swift in Sources */,
+				656032FC231273B100CBBED6 /* ClientsOffersCell.swift in Sources */,
+				656032F72312696A00CBBED6 /* ClientinfoDetailCell.swift in Sources */,
+				65A9F7C22311C780001193A3 /* ProducstCollectionViewManager.swift in Sources */,
+				65A9F7D9231201E5001193A3 /* ClientCell.swift in Sources */,
+				65A9F7C72311D90E001193A3 /* ProductDetailViewController.swift in Sources */,
+				656032FA23126A8E00CBBED6 /* SandwichInfoView.swift in Sources */,
+				656032ED2312566900CBBED6 /* ClientDetailsViewController.swift in Sources */,
+				656032F52312675200CBBED6 /* ClientHIstoryProductsCell.swift in Sources */,
+				656032FE231275DD00CBBED6 /* ProductsOfferView.swift in Sources */,
+				65A9F7C42311C7B3001193A3 /* ProductsCollectionView.swift in Sources */,
+				65A9F7D623120104001193A3 /* ClientsCollectionView.swift in Sources */,
+				656033032312773700CBBED6 /* ProductPriceCollectionView.swift in Sources */,
+				65A9F7AF2311B305001193A3 /* AppDelegate.swift in Sources */,
+				65A9F7D4231200F5001193A3 /* ClientsDataSource.swift in Sources */,
+				65399938231235A9000CDFF0 /* ElektraTabBarController.swift in Sources */,
+				656032F1231257F300CBBED6 /* LastSearchDataSource.swift in Sources */,
+				65603309231282D100CBBED6 /* HorizontalOffersListCell.swift in Sources */,
+				65A9F7D2231200B0001193A3 /* BaseViewController.swift in Sources */,
+				656032EF2312570000CBBED6 /* ProductsHorizontalCollectionView.swift in Sources */,
+				65A9F7C92311E0A9001193A3 /* Constants.swift in Sources */,
+				65603300231276D600CBBED6 /* ProductPriceCell.swift in Sources */,
+				65A9F7CD23120006001193A3 /* ProductDetailCell.swift in Sources */,
+				65603306231277FA00CBBED6 /* ProductsOffersDataSource.swift in Sources */,
+				65A9F7CF2312001E001193A3 /* ClientsViewController.swift in Sources */,
+				656033142312982900CBBED6 /* DataManager.swift in Sources */,
+				65603312231296DF00CBBED6 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65A9F7B72311B307001193A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A9F7B82311B307001193A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A9F7BB2311B307001193A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65A9F7BC2311B307001193A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A9F7BE2311B307001193A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF1B2D66C3A1FAC6068CB2E /* Pods-Elektra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQQ3NDG4CP;
+				INFOPLIST_FILE = Elektra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lemg.Elektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A9F7BF2311B307001193A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12744828322360847A65C7F8 /* Pods-Elektra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQQ3NDG4CP;
+				INFOPLIST_FILE = Elektra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lemg.Elektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A9F7A62311B305001193A3 /* Build configuration list for PBXProject "Elektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A9F7BB2311B307001193A3 /* Debug */,
+				65A9F7BC2311B307001193A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A9F7BD2311B307001193A3 /* Build configuration list for PBXNativeTarget "Elektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A9F7BE2311B307001193A3 /* Debug */,
+				65A9F7BF2311B307001193A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A9F7A32311B305001193A3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Elektra {
+  umbrella header "Pods-Elektra-umbrella.h"
+
+  export *
+  module * { export * }
+}
